@@ -1,0 +1,28 @@
+{
+    "questions": [
+        {
+            "id": "appname",
+            "type": "string",
+            "content": "What is the name of your package?"
+        },
+        {
+            "id": "version",
+            "type": "string",
+            "content": "At which version should your package start?"
+        }
+    ],
+    "actions": [
+        {
+            "id": "appname",
+            "tag": "appName",
+            "question_id": "appname",
+            "target_file": "*"
+        },
+        {
+            "id": "baseversion",
+            "tag": "defaultVersion",
+            "question_id": "version",
+            "target_file": "*"
+        }
+    ]
+}

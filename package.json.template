@@ -1,6 +1,6 @@
 {
-  "name": "create-next-app-test",
-  "version": "0.1.0",
+  "name": "{{ appName }}",
+  "version": "{{ defaultVersion }}",
   "private": true,
   "scripts": {
     "dev": "next dev",
