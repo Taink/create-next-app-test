@@ -4,12 +4,14 @@
             "id": "appname",
             "type": "string",
             "placeholder": "LegendaryDrupal",
+            "description": "You muste user a PascalCase syntax.",
             "content": "What is the name of your package?"
         },
         {
             "id": "version",
             "type": "string",
             "placeholder": "1.0.0",
+            "description": "",
             "content": "At which version should your package start?"
         }
     ],
